@@ -1,10 +1,67 @@
 @font-face {
-    font-family: 'GongGothicMedium';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 * {
-    font-family:  "GongGothicMedium"
+    font-family:  "GmarketSansMedium"
+}
+
+/* 상단 메시지 */
+.text {
+    font-size : 32px;
+    text-align : center;
+    padding-top: 50px;
+}
+
+.name{
+    font-size : 108px;
+}
+
+.text a{
+    padding: 10px;
+}
+
+/* 본문 */
+.mainsection {
+    text-align : center;
+
+    padding-top: 50px;
+}
+
+.titlesection{
+    padding-top: 10px;
+}
+.titlesection p{
+    padding-bottom: 0px;
+}
+
+/* 댓글 */
+#disqus_thread{
+    padding: 12px 10px 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+@media screen and (min-width: 673px){
+    #disqus_thread{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (min-width: 1040px){
+    #disqus_thread{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (min-width: 1110px){
+    #disqus_thread{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }

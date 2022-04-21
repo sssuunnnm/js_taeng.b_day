@@ -29,6 +29,15 @@
     text-align : center;
 
     padding-top: 50px;
+    background-image: url("002.gif");
+    background-size: 960px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background: #000; */
+}
+
+.img{
+    
 }
 
 .titlesection{
@@ -36,32 +45,4 @@
 }
 .titlesection p{
     padding-bottom: 0px;
-}
-
-/* 댓글 */
-#disqus_thread{
-    padding: 12px 10px 0;
-    margin: 0 auto;
-    max-width: 800px;
-}
-
-@media screen and (min-width: 673px){
-    #disqus_thread{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-}
-
-@media screen and (min-width: 1040px){
-    #disqus_thread{
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-}
-
-@media screen and (min-width: 1110px){
-    #disqus_thread{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
 }
